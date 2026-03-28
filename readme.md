@@ -54,7 +54,7 @@ npm install
 
 ```
 
----
+
 
 Create .env file:
 
@@ -71,7 +71,7 @@ MONGO_URI
 ```
 
 
----
+
 
 Run backend:
 
