@@ -40,6 +40,89 @@ A simple full stack web application with authentication and dashboard functional
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/shivcodecf/ACT-mern.git
+cd act
 ```
+---
+
+2. Setup Backend
+
+```bash
+
+cd backend
+npm install
+
+```
+
+---
+
+Create .env file:
+
+```bash
+ 
+PORT = 8000
+
+JWT_SECRET 
+
+FRONTEND_URL 
+
+MONGO_URI 
+
+```
+
+
+---
+
+Run backend:
+
+```bash
+
+npm run dev
+
+```
+
+---
+
+3. Setup Frontend
+
+```bash
+
+cd frontend
+npm install
+
+```
+
+Create .env:
+
+```bash
+
+VITE_API_URL
+
+```
+
+
+---
+
+🌐 Deployment
+Frontend: Vercel
+Backend: Render
+
+---
+
+🔐 Authentication Flow
+User logs in
+Server generates JWT
+Token stored in HTTP-only cookie
+Protected routes check authentication
+
+---
+
+---
+
+👨‍💻 Author
+
+Shivam Yadav
+
+
+
+
